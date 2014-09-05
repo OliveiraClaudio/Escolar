@@ -1,0 +1,9 @@
+criar branch workingMaster
+fazer alterações 
+git pull origin master 
+	caso exista mudanças , fazer rebase 
+	git checkout workingMaster
+	git rebase master 
+git checkout master 
+git merge workingMaster
+git push origin master 
